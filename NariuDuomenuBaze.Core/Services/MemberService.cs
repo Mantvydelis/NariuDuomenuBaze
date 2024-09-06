@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NariuDuomenuBaze.Core.Contracts
+namespace NariuDuomenuBaze.Core.Services
 {
-    public interface IMemberRepository
+    public class MemberService
     {
-
-
 
 
 

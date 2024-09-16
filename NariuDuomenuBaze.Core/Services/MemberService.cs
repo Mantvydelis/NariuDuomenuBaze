@@ -19,8 +19,6 @@ namespace NariuDuomenuBaze.Core.Services
             _memberFileRepository = memberFileRepository;
         }
 
-
-
         public async Task AddMember(Member member)
         {
             await _memberEfDbRepository.AddMember(member);

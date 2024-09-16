@@ -18,8 +18,6 @@ namespace NariuDuomenuBaze.Core.Repositories
             _filePath = memberFilePath;
         }
 
-        //IMemberFileRepository memberFileRepository = new MemberFileRepository("MemberList.csv"); - cia i API idet
-
 
         public async Task AddMember(Member member)
         {
